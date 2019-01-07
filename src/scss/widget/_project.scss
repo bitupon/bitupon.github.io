@@ -70,13 +70,14 @@
         &-link {
             display: inline-block;
             position:relative;
-            border: solid 2px #ccc;
+            border: solid 2px #4267b2;
+            background-color: #4267b2;
             font-size: 12px;
             padding: 10px 30px;
             text-transform: uppercase;
             font-weight: 500;
             letter-spacing: 1px;
-            color: #777;
+            color: #fff;
             margin-right: 10px;
             text-decoration: none;
             cursor: pointer;
@@ -94,8 +95,8 @@
 
             &:hover {
                 text-decoration: none;
-                color: #666;
-                border: solid 2px #bbb;
+                color: #fff;
+                border: solid 2px #4267b2;
 
                 .fas {
                     right: 15px;

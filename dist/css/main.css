@@ -117,7 +117,7 @@ ul {
     text-transform: uppercase;
     font-weight: 700;
     z-index: 10000;
-    color: #0c799e;
+    color: #e64f0a;
     background-image: linear-gradient(to bottom, #fff 50%, transparent);
     height: 100px; }
   .pf-section__container {
@@ -180,7 +180,7 @@ ul {
           .pf-section__intro-contact li a .fa-envelope, .pf-section__intro-contact li a .fa-github {
             margin-right: 5px; }
           .pf-section__intro-contact li a:hover {
-            color: #0c799e;
+            color: #e64f0a;
             text-decoration: none; }
         .pf-section__intro-contact li:last-child {
           float: right;
@@ -191,13 +191,11 @@ ul {
         display: block;
         clear: both; }
     .pf-section__intro-desc {
-      font-family: 'News Cycle', sans-serif;
-      font-size: 16px;
+      font-size: 14px;
       font-weight: 400;
       margin: 30px 0;
       color: #888;
-      line-height: 28px;
-      letter-spacing: 1px; }
+      line-height: 28px; }
     .pf-section__intro--gray {
       background-color: #fafafa; }
   .pf-section-wrapper {
@@ -220,7 +218,7 @@ ul {
       text-transform: uppercase;
       font-weight: 700;
       z-index: 10000;
-      color: #0c799e; }
+      color: #e64f0a; }
     .pf-sections .pf-section {
       background-color: transparent; }
   .pf-section--intro {
@@ -232,13 +230,13 @@ ul {
   font-weight: 500;
   letter-spacing: 1px;
   padding: 15px 15px;
-  background: #0c799e;
+  background: #f55c15;
   color: #fff;
   text-transform: uppercase; }
   .pf-btn--lined {
-    border: solid 2px #0c799e;
+    border: solid 2px #f55c15;
     background-color: transparent;
-    color: #0c799e; }
+    color: #f55c15; }
 
 .pf-skill {
   flex-grow: 1;
@@ -331,13 +329,14 @@ ul {
     .pf-project__nav-link {
       display: inline-block;
       position: relative;
-      border: solid 2px #ccc;
+      border: solid 2px #4267b2;
+      background-color: #4267b2;
       font-size: 12px;
       padding: 10px 30px;
       text-transform: uppercase;
       font-weight: 500;
       letter-spacing: 1px;
-      color: #777;
+      color: #fff;
       margin-right: 10px;
       text-decoration: none;
       cursor: pointer;
@@ -352,8 +351,8 @@ ul {
         transition: all 0.2s; }
       .pf-project__nav-link:hover {
         text-decoration: none;
-        color: #666;
-        border: solid 2px #bbb; }
+        color: #fff;
+        border: solid 2px #4267b2; }
         .pf-project__nav-link:hover .fas {
           right: 15px; }
   .pf-project__gallery {
