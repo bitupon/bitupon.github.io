@@ -394,6 +394,14 @@ ul {
       font-weight: 700;
       color: #777;
       margin-bottom: 15px; }
+    .pf-timeline__item-logo {
+      display: inline-block;
+      height: 15px;
+      margin-bottom: 25px; }
+      .pf-timeline__item-logo img {
+        height: 100%; }
+      .pf-timeline__item-logo--md {
+        height: 20px; }
     .pf-timeline__item-desc {
       font-size: 12px;
       margin-bottom: 5px; }

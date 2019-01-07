@@ -22,6 +22,19 @@
             margin-bottom: 15px;
         }
 
+        &-logo{
+            display: inline-block;
+            height: 15px;
+            margin-bottom: 25px;
+            img{
+                height: 100%;
+            }
+
+            &--md{
+                height: 20px;
+            }
+        }
+
         &-desc {
             font-size: 12px;
             margin-bottom:5px;
