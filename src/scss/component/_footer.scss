@@ -1,0 +1,46 @@
+﻿
+#{$pfx}-footer {
+    position: fixed;
+    width: 100%;
+    bottom: -100px;
+    left: 0;
+    right:0;
+    display: flex;
+    justify-content: center;
+    height:40px;
+    z-index: 1000;
+    transition: bottom ease-out .5s;
+    background:#4d4d4d;
+
+    &--slideup {
+        bottom: 0px;
+    }
+
+    &__copyright{
+        font-size: 10px;
+        font-weight: 400;
+        color: #fff;
+        //text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    &__social{
+        display: inline-block;
+        float: right;
+        &-item{
+            display: inline-block;
+            margin-left: 10px;
+
+            a{
+                display: inline-block;
+                height: 20px;
+                width:20px;
+                cursor:pointer;
+
+                img{
+                    height: 100%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,140 @@
+﻿
+#{$pfx}-project {
+    display: flex;
+    flex-direction: row;
+    //margin-top: 100px;
+
+    &__content {
+        width: 40%;
+    }
+
+    &__slide {
+        width: 60%;
+    }
+
+    &__number {
+        font-size: 45px;
+        font-weight: 700;
+        color: #fff;
+        display: inline-block;
+        //height: 90px;
+        width: 50px;
+        text-align: center;
+        //line-height: 80px;
+        margin-right: 20px;
+        text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    }
+
+    &__header {
+        font-size: 35px;
+        font-weight: 300;
+    }
+
+    &__work{
+        font-size: 10px;
+        padding-left: 70px;
+        font-style: italic;
+        color: #777;
+        letter-spacing: 1px;
+    }
+
+    &__desc {
+        padding: 20px 10px 0 70px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    &__tech{
+        padding: 20px 0 20px 70px;
+        &-item{
+            height: 25px;
+            width: 25px;
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        &-img{
+            height: 100%;
+        }
+    }
+
+    &__img {
+        img {
+            width: 100%;
+        }
+    }
+
+    &__nav {
+        padding: 10px 0 0 70px;
+
+        &-link {
+            display: inline-block;
+            position:relative;
+            border: solid 2px #ccc;
+            font-size: 12px;
+            padding: 10px 30px;
+            text-transform: uppercase;
+            font-weight: 500;
+            letter-spacing: 1px;
+            color: #777;
+            margin-right: 10px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all $trns-fast;
+
+            .fas {
+                position:absolute;
+                right:20px;
+                top:10px;
+                font-size: 14px;
+                vertical-align: sub;
+                color: #aaa;
+                transition: all $trns-fast;
+            }
+
+            &:hover {
+                text-decoration: none;
+                color: #666;
+                border: solid 2px #bbb;
+
+                .fas {
+                    right: 15px;
+                }
+            }
+        }
+    }
+
+    &__gallery{
+        display: flex;        
+        flex-flow: column wrap;
+        height: 700px;
+        &-item{
+            //flex-grow: 1;
+            width:25%;
+            padding:  0 5px 20px 5px;
+           
+            .img-wrapper{                
+                padding: 10px;
+                height: 250px;
+                overflow: hidden;
+                img{
+                    width:100%;
+                }
+            }
+
+            .content{
+                background: #fff;
+                box-shadow: 2px 2px 7px -2px rgba(0, 0, 0, 0.2);
+                border: solid 1px #e1e1e1;
+               
+            }
+
+            .desc{
+                padding: 10px;
+                background: #eee;
+                font-size: 12px;
+                font-weight: 600;
+            }           
+        }
+    }
+}

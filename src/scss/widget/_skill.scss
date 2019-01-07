@@ -1,0 +1,78 @@
+﻿#{$pfx}-skill {
+    $skill: &;
+
+    &s {
+        position: relative;
+        padding: 30px 0 30px 30px;
+        display: flex;
+        align-content: center;
+        flex-flow: row wrap;
+       
+
+        &__header {
+            position: relative;
+            flex-grow: 1;
+            flex-basis: 100%;
+            text-align: left;            
+            font-size: 25px;
+            font-weight: 400;
+
+            &:before{
+                // content: "";
+                // background: #ccc;
+                // position: absolute;
+                // width: 20px;
+                // height: 20px;
+            }
+        }
+
+        &--stack{
+            #{$skill}{
+                padding: 0 20px;
+                flex-basis: auto;
+                flex-grow: unset;
+                &__content {                    
+                    width: auto;
+                    height: 100px;
+                    text-align: center;
+                }
+
+                &__img {
+                    width: auto;
+                    height: 50px;
+                    margin-top: 15px;
+                }
+
+                &__title {
+                    
+                }
+            }
+        }
+    }
+
+    flex-grow: 1;
+    flex-basis: 25%;
+    text-align: center;
+
+    &__content {
+        position: relative;
+        display: inline-block;
+        width: 125px;
+        height: 100px;
+        text-align: center;
+    }
+
+    &__img {
+        width: 50px;
+        height: 50px;
+        margin-top: 15px;
+    }
+
+    &__title {
+        display: block;
+        text-align: center;
+        padding-top: 8px;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+}

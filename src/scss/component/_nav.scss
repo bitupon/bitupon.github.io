@@ -1,0 +1,21 @@
+﻿#{$pfx}-nav {
+    &__list {
+        &-item {
+            float: left;
+            a {
+                display: inline-block;
+                text-transform: uppercase;
+                font-size: 12px;
+                margin: 0 10px;
+                font-weight: 500;
+                cursor:pointer;
+                letter-spacing: 1px;
+                color:#000;
+            }
+        }
+
+        &:after {
+            @extend #clear-fix;
+        }
+    }
+}

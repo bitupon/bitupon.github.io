@@ -1,0 +1,24 @@
+﻿html, body {
+    padding: 0;
+    margin: 0;
+    color: #4d4d4d;
+    font-family: 'Roboto','Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    height:100%;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+
+#{$pfx}-main {
+    height:100%;
+}
+
+#{$pfx}-container {
+    width: 1200px;
+    margin: auto;
+    padding: 0 40px;
+}

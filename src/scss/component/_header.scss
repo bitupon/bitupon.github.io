@@ -1,0 +1,16 @@
+﻿#{$pfx}-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    padding: 10px 30px;
+    height:60px;
+    z-index: 1000;
+    transition: top ease-out .5s;
+    background-image: linear-gradient(to bottom, #fff 20%, transparent);
+
+    &--slideup {
+        top: -200px;
+    }
+}
