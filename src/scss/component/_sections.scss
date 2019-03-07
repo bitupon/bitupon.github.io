@@ -184,7 +184,7 @@
     }
 }
 
-@media screen #{$mob}{
+@media screen #{$tab}{
     #{$pfx}-section {
         height: auto;
 
@@ -227,6 +227,33 @@
                     }
                 }
             }
+        }
+    }
+}
+
+@media screen #{$mob}{
+    #{$pfx}-section {
+        &__intro{
+           padding: 60px 10px;
+           
+            &-left{
+                padding: 35px 20px;
+            }
+           
+            &-more{
+                 margin-bottom: 45px;
+            }   
+
+            &-contact{
+                padding: 8px 10px;
+                li{
+                    margin: 0;
+                }
+            }
+        }
+
+        &__container{
+            padding: 30px 15px;
         }
     }
 }

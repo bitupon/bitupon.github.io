@@ -23,11 +23,17 @@ ul {
     padding: 0 40px;
 }
 
-@media screen #{$mob}{
+@media screen #{$tab}{
     #{$pfx}-main {
         height:auto;
     }
     #{$pfx}-container {
         width: 100%;
+    }
+}
+
+@media screen #{$mob}{
+    #{$pfx}-container {
+        padding: 0 15px;
     }
 }

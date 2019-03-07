@@ -17,13 +17,6 @@
             font-size: 25px;
             font-weight: 400;
 
-            &:before{
-                // content: "";
-                // background: #ccc;
-                // position: absolute;
-                // width: 20px;
-                // height: 20px;
-            }
         }
 
         &--stack{
@@ -74,5 +67,15 @@
         padding-top: 8px;
         font-size: 12px;
         letter-spacing: 1px;
+    }
+}
+
+
+@media screen #{$mob}{
+    #{$pfx}-skill {
+        &s{
+            padding: 30px 0;
+        }        
+
     }
 }

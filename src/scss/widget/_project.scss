@@ -171,7 +171,7 @@
     }
 }
 
-@media screen #{$mob}{
+@media screen #{$tab}{
     #{$pfx}-project {
         flex-flow: row wrap;
 
@@ -190,6 +190,27 @@
             &-item{
                 width:50%;
             }
+        }
+    }
+}
+
+@media screen #{$mob}{
+    #{$pfx}-project {
+        &__header{
+            font-size: 30px;
+        }
+
+        &__number{
+            font-size: 35px;
+            margin-right: 5px;
+        }
+
+        &__work,&__tech,&__nav{
+            padding-left: 10px;
+        }
+
+        &__desc{
+            padding: 20px 10px 0 10px;
         }
     }
 }

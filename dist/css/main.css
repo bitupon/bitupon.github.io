@@ -24,11 +24,15 @@ ul {
   margin: auto;
   padding: 0 40px; }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-device-width: 1023px) {
   .pf-main {
     height: auto; }
   .pf-container {
     width: 100%; } }
+
+@media screen and (max-device-width: 767px) {
+  .pf-container {
+    padding: 0 15px; } }
 
 html, body {
   padding: 0;
@@ -50,11 +54,15 @@ ul {
   margin: auto;
   padding: 0 40px; }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-device-width: 1023px) {
   .pf-main {
     height: auto; }
   .pf-container {
     width: 100%; } }
+
+@media screen and (max-device-width: 767px) {
+  .pf-container {
+    padding: 0 15px; } }
 
 .pf-header {
   position: fixed;
@@ -118,10 +126,14 @@ ul {
         .pf-footer__social-item a img {
           height: 100%; }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-device-width: 1023px) {
   .pf-footer {
     position: relative;
     bottom: 0; } }
+
+@media screen and (max-device-width: 767px) {
+  .pf-footer__copyright {
+    font-size: 8px; } }
 
 .pf-section {
   position: relative;
@@ -241,7 +253,7 @@ ul {
   .pf-section--intro {
     min-height: 710px; }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-device-width: 1023px) {
   .pf-section {
     height: auto; }
     .pf-section__title {
@@ -268,6 +280,20 @@ ul {
           height: auto; }
           .pf-section-wrapper .pf-sections__title {
             margin-top: 40px; } }
+
+@media screen and (max-device-width: 767px) {
+  .pf-section__intro {
+    padding: 60px 10px; }
+    .pf-section__intro-left {
+      padding: 35px 20px; }
+    .pf-section__intro-more {
+      margin-bottom: 45px; }
+    .pf-section__intro-contact {
+      padding: 8px 10px; }
+      .pf-section__intro-contact li {
+        margin: 0; }
+  .pf-section__container {
+    padding: 30px 15px; } }
 
 .pf-btn {
   border-radius: 0;
@@ -328,6 +354,10 @@ ul {
     padding-top: 8px;
     font-size: 12px;
     letter-spacing: 1px; }
+
+@media screen and (max-device-width: 767px) {
+  .pf-skills {
+    padding: 30px 0; } }
 
 .pf-project {
   display: flex;
@@ -446,7 +476,7 @@ ul {
         font-size: 12px;
         font-weight: 600; }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-device-width: 1023px) {
   .pf-project {
     flex-flow: row wrap; }
     .pf-project__content, .pf-project__slide {
@@ -459,6 +489,17 @@ ul {
       height: auto; }
       .pf-project__gallery-item {
         width: 50%; } }
+
+@media screen and (max-device-width: 767px) {
+  .pf-project__header {
+    font-size: 30px; }
+  .pf-project__number {
+    font-size: 35px;
+    margin-right: 5px; }
+  .pf-project__work, .pf-project__tech, .pf-project__nav {
+    padding-left: 10px; }
+  .pf-project__desc {
+    padding: 20px 10px 0 10px; } }
 
 .pf-timeline {
   position: relative;

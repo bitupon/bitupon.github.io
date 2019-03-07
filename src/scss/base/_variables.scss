@@ -6,5 +6,7 @@ $trns-slow: 1s;
 $trns-med: .5s;
 $trns-fast: .2s;
 
-$mob: " and (max-width: 1023px)";
+$tab: " and (max-device-width: 1023px)";
+
+$mob: " and (max-device-width: 767px)";
 

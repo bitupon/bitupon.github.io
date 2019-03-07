@@ -84,15 +84,15 @@ function setPageLayout(){
             }
         });
     }else{
-        window.location.reload();
+        //window.location.reload();
     }
 };
 
 $(document).ready(function () {
-        
+        setPageLayout();
         $(window).resize(function() {
             setPageLayout();
-       });
+        });
 
         // Smooth Scrolling
         $('#navBar a').click(function(e){
