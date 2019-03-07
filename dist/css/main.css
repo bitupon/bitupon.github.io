@@ -248,6 +248,12 @@ ul {
       font-weight: 700;
       z-index: 10000;
       color: #e64f0a; }
+    .pf-sections__subtitle {
+      font-size: 10px;
+      letter-spacing: 1px;
+      font-weight: 500;
+      color: #4d4d4d;
+      font-family: 'Roboto','Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
     .pf-sections .pf-section {
       background-color: transparent; }
   .pf-section--intro {

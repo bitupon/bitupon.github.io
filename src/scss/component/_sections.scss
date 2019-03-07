@@ -170,6 +170,14 @@
             color: $pri-color--dk; //#4d4d4d;
         }
 
+        &__subtitle {
+            font-size: 10px;
+            letter-spacing: 1px;
+            font-weight: 500;
+            color: #4d4d4d;
+            font-family: 'Roboto','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
         #{$pfx}-section {
             background-color: transparent;
 
