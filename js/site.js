@@ -83,6 +83,8 @@ function setPageLayout(){
                 $(".pf-footer").removeClass("pf-footer--slideup");
             }
         });
+    }else{
+        window.location.reload();
     }
 };
 
@@ -90,7 +92,7 @@ $(document).ready(function () {
         
         $(window).resize(function() {
             setPageLayout();
-        });
+       });
 
         // Smooth Scrolling
         $('#navBar a').click(function(e){
