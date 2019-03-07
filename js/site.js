@@ -1,5 +1,8 @@
 ﻿// Write your Javascript code.
-$(document).ready(function () {
+
+function setPageLayout(){
+    var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+    if (width > 1023){
         var cont = $("#secsWorkWrapper");
         var contHeight = cont.height();
         var conPos = cont.position().top;
@@ -79,6 +82,14 @@ $(document).ready(function () {
 
                 $(".pf-footer").removeClass("pf-footer--slideup");
             }
+        });
+    }
+};
+
+$(document).ready(function () {
+        
+        $(window).resize(function() {
+            setPageLayout();
         });
 
         // Smooth Scrolling

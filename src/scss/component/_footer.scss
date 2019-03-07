@@ -44,3 +44,10 @@
         }
     }
 }
+
+@media screen #{$mob}{
+    #{$pfx}-footer {
+        position: relative;
+        bottom:0;
+    }
+}

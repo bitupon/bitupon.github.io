@@ -22,3 +22,12 @@ ul {
     margin: auto;
     padding: 0 40px;
 }
+
+@media screen #{$mob}{
+    #{$pfx}-main {
+        height:auto;
+    }
+    #{$pfx}-container {
+        width: 100%;
+    }
+}

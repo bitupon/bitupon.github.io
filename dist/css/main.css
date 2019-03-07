@@ -24,6 +24,12 @@ ul {
   margin: auto;
   padding: 0 40px; }
 
+@media screen and (max-width: 1023px) {
+  .pf-main {
+    height: auto; }
+  .pf-container {
+    width: 100%; } }
+
 html, body {
   padding: 0;
   margin: 0;
@@ -43,6 +49,12 @@ ul {
   width: 1200px;
   margin: auto;
   padding: 0 40px; }
+
+@media screen and (max-width: 1023px) {
+  .pf-main {
+    height: auto; }
+  .pf-container {
+    width: 100%; } }
 
 .pf-header {
   position: fixed;
@@ -105,6 +117,11 @@ ul {
         cursor: pointer; }
         .pf-footer__social-item a img {
           height: 100%; }
+
+@media screen and (max-width: 1023px) {
+  .pf-footer {
+    position: relative;
+    bottom: 0; } }
 
 .pf-section {
   position: relative;
@@ -223,6 +240,34 @@ ul {
       background-color: transparent; }
   .pf-section--intro {
     min-height: 710px; }
+
+@media screen and (max-width: 1023px) {
+  .pf-section {
+    height: auto; }
+    .pf-section__title {
+      margin-top: 40px; }
+    .pf-section__intro {
+      width: 100%;
+      flex-flow: row wrap; }
+      .pf-section__intro-left {
+        width: 100%; }
+      .pf-section__intro-right {
+        width: 100%; }
+      .pf-section__intro-more {
+        margin-bottom: 20px; }
+    .pf-section__container {
+      padding-top: 40px;
+      width: 100%; }
+    .pf-section-wrapper {
+      height: auto;
+      background: #eaeaea; }
+      .pf-section-wrapper .pf-section {
+        position: relative;
+        height: auto; }
+        .pf-section-wrapper .pf-sections {
+          height: auto; }
+          .pf-section-wrapper .pf-sections__title {
+            margin-top: 40px; } }
 
 .pf-btn {
   border-radius: 0;
@@ -402,6 +447,20 @@ ul {
         background: #eee;
         font-size: 12px;
         font-weight: 600; }
+
+@media screen and (max-width: 1023px) {
+  .pf-project {
+    flex-flow: row wrap; }
+    .pf-project__content, .pf-project__slide {
+      width: 100%; }
+    .pf-project__content {
+      margin-bottom: 50px; }
+    .pf-project__gallery {
+      display: flex;
+      flex-flow: row wrap;
+      height: auto; }
+      .pf-project__gallery-item {
+        width: 50%; } }
 
 .pf-timeline {
   position: relative;

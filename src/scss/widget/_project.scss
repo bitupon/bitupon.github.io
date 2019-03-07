@@ -170,3 +170,26 @@
         }
     }
 }
+
+@media screen #{$mob}{
+    #{$pfx}-project {
+        flex-flow: row wrap;
+
+        &__content,&__slide{
+            width:100%;            
+        }
+
+        &__content{
+            margin-bottom: 50px;
+        }
+
+        &__gallery{
+            display: flex;
+            flex-flow: row wrap;
+            height: auto;
+            &-item{
+                width:50%;
+            }
+        }
+    }
+}

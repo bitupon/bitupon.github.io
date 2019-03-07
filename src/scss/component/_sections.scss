@@ -183,3 +183,50 @@
         min-height: 710px;
     }
 }
+
+@media screen #{$mob}{
+    #{$pfx}-section {
+        height: auto;
+
+        &__title{
+            margin-top: 40px;
+        }
+
+        &__intro{
+            width:100%;
+            flex-flow: row wrap;
+
+            &-left{
+                width:100%;
+            }
+
+            &-right{
+                width:100%;
+            }
+
+            &-more{
+                margin-bottom: 20px;
+            }
+        }
+
+        &__container{
+            padding-top: 40px;
+            width:100%;
+        }
+
+        &-wrapper{
+            height: auto;
+            background: rgb(234, 234, 234);
+            #{$pfx}-section{                
+                position: relative;
+                height: auto;
+                &s{
+                    height: auto;
+                    &__title{
+                        margin-top: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
